@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Web Development Courses</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .courses-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+
+    .course-card {
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+      padding: 1.5rem;
+    }
+
+    .course-card h3 {
+      color: #2c3e50;
+      margin-bottom: 0.5rem;
+    }
+
+    .course-card p {
+      font-size: 0.95rem;
+      color: #555;
+    }
+
+    .course-card a {
+      display: inline-block;
+      margin-top: 0.75rem;
+      text-decoration: none;
+      color: #0077cc;
+      font-weight: bold;
+    }
+
+    .course-card a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Web Development Courses</h1>
+    <p>Build your skills. Launch your career.</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="company.html">Company</a>
+    <a href="profiles.html">Profiles</a>
+    <a href="courses.html">Courses</a>
+    <a href="apply.html">Apply</a>
+    <a href="jobs.html">Jobs</a>
+  </nav>
+
+  <main>
+    <h2>Recommended Courses</h2>
+    <div class="courses-grid">
+      <div class="course-card">
+        <h3>Codecademy: Full-Stack Engineer</h3>
+        <p>Learn HTML, CSS, JavaScript, React, Node.js, and SQL in an interactive environment. Great for beginners to intermediate learners.</p>
+        <a href="https://www.codecademy.com/learn/full-stack-engineer-career-path" target="_blank">Visit Course</a>
+      </div>
+
+      <div class="course-card">
+        <h3>freeCodeCamp</h3>
+        <p>A completely free and comprehensive resource covering front-end, back-end, data structures, and algorithms.</p>
+        <a href="https://www.freecodecamp.org/" target="_blank">Visit Course</a>
+      </div>
+
+      <div class="course-card">
+        <h3>Coursera: Meta Front-End Developer</h3>
+        <p>Offered by Meta (Facebook) through Coursera, this course teaches front-end web development from scratch.</p>
+        <a href="https://www.coursera.org/professional-certificates/meta-front-end-developer" target="_blank">Visit Course</a>
+      </div>
+
+      <div class="course-card">
+        <h3>Udemy: The Complete Web Developer Bootcamp</h3>
+        <p>A top-rated course covering both front-end and back-end development with hands-on projects and challenges.</p>
+        <a href="https://www.udemy.com/course/the-complete-web-developer-zero-to-mastery/" target="_blank">Visit Course</a>
+      </div>
+
+      <div class="course-card">
+        <h3>Scrimba: Front-End Developer Path</h3>
+        <p>Learn by doing! Scrimba’s interactive screencasts help you master HTML, CSS, JavaScript, and React.</p>
+        <a href="https://scrimba.com/learn/frontend" target="_blank">Visit Course</a>
+      </div>
+
+      <div class="course-card">
+        <h3>Google Career Certificates: UX Design</h3>
+        <p>Learn UX principles that are essential for modern web development and product design.</p>
+        <a href="https://grow.google/certificates/ux-design/" target="_blank">Visit Course</a>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Bobble Digital. All rights reserved.</p>
+  </footer>
+</body>
+</html>

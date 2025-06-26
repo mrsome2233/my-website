@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Apply for a Role</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    form {
+      max-width: 600px;
+      margin: 2rem auto;
+      background: #fff;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    }
+
+    form h2 {
+      margin-bottom: 1rem;
+      color: #2c3e50;
+    }
+
+    label {
+      display: block;
+      margin-top: 1rem;
+      font-weight: bold;
+    }
+
+    input, textarea, select {
+      width: 100%;
+      padding: 0.75rem;
+      margin-top: 0.5rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 1rem;
+    }
+
+    button {
+      margin-top: 1.5rem;
+      padding: 0.75rem 1.5rem;
+      font-size: 1rem;
+      background-color: #0077cc;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #005fa3;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Join the Bobble Digital Team</h1>
+    <p>Complete the form below to apply for a junior developer role.</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="company.html">Company</a>
+    <a href="profiles.html">Profiles</a>
+    <a href="courses.html">Courses</a>
+    <a href="apply.html">Apply</a>
+    <a href="jobs.html">Jobs</a>
+  </nav>
+
+  <main>
+    <form action="#" method="post" enctype="multipart/form-data">
+      <h2>Application Form</h2>
+
+      <label for="fullname">Full Name</label>
+      <input type="text" id="fullname" name="fullname" required />
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="phone">Phone Number</label>
+      <input type="tel" id="phone" name="phone" />
+
+      <label for="skills">What are your key skills?</label>
+      <textarea id="skills" name="skills" rows="4" placeholder="e.g., HTML, CSS, JavaScript, React" required></textarea>
+
+      <label for="experience">Experience Level</label>
+      <select id="experience" name="experience" required>
+        <option value="">Select...</option>
+        <option value="none">No experience</option>
+        <option value="junior">Junior Developer</option>
+        <option value="intern">Internship/Bootcamp</option>
+        <option value="other">Other</option>
+      </select>
+
+      <label for="cv">Upload Your CV (PDF or DOC)</label>
+      <input type="file" id="cv" name="cv" accept=".pdf, .doc, .docx" />
+
+      <button type="submit">Submit Application</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Bobble Digital. All rights reserved.</p>
+  </footer>
+</body>
+</html>

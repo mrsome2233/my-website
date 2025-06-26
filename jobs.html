@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jobs - Bobble Digital</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f7fa;
+      margin: 0;
+      padding: 0;
+    }
+
+    .header {
+      background-color: #2c3e50;
+      color: white;
+      padding: 30px 0;
+      text-align: center;
+    }
+
+    .navbar {
+      background-color: #34495e;
+      display: flex;
+      justify-content: center;
+    }
+
+    .navbar ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    .navbar li {
+      margin: 0 15px;
+    }
+
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 15px 0;
+      display: inline-block;
+    }
+
+    .navbar a:hover,
+    .navbar a.active {
+      text-decoration: underline;
+    }
+
+    .content {
+      max-width: 1200px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    h2 {
+      color: #1f3b57;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .jobs-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+    }
+
+    .job-card {
+      background-color: #ffffff;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.05);
+    }
+
+    .job-card h3 {
+      color: #2b4c6f;
+      margin-top: 0;
+    }
+
+    .job-card ul {
+      padding-left: 20px;
+      margin: 10px 0;
+    }
+
+    .job-card li {
+      margin-bottom: 6px;
+    }
+
+    .apply-button {
+      display: inline-block;
+      margin-top: 12px;
+      padding: 10px 20px;
+      background-color: #10b981;
+      color: white;
+      border-radius: 6px;
+      font-weight: bold;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .apply-button:hover {
+      background-color: #0e9a6d;
+    }
+
+    .footer {
+      text-align: center;
+      background-color: #2c3e50;
+      color: white;
+      padding: 20px 0;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="header">
+    <h1>Current Job Openings</h1>
+    <p>Exciting roles for aspiring developers. Apply today!</p>
+  </header>
+
+  <nav class="navbar">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="company.html">Company</a></li>
+      <li><a href="profiles.html">Profiles</a></li>
+      <li><a href="courses.html">Courses</a></li>
+      <li><a href="apply.html">Apply</a></li>
+      <li><a class="active" href="jobs.html">Jobs</a></li>
+    </ul>
+  </nav>
+
+  <main class="content">
+    <h2>We Are Hiring</h2>
+    <div class="jobs-grid">
+      <div class="job-card">
+        <h3>Junior Web Developer</h3>
+        <ul>
+          <li>Full-time</li>
+          <li>Remote / Leeds</li>
+          <li>£24k–£28k</li>
+        </ul>
+        <a href="apply.html" class="apply-button">Apply Now</a>
+      </div>
+
+      <div class="job-card">
+        <h3>Frontend Developer Intern</h3>
+        <ul>
+          <li>6-month Internship</li>
+          <li>Remote</li>
+          <li>£1,000/month</li>
+        </ul>
+        <a href="apply.html" class="apply-button">Apply Now</a>
+      </div>
+
+      <div class="job-card">
+        <h3>WordPress Developer</h3>
+        <ul>
+          <li>Contract</li>
+          <li>Remote</li>
+          <li>£200/day</li>
+        </ul>
+        <a href="apply.html" class="apply-button">Apply Now</a>
+      </div>
+
+      <div class="job-card">
+        <h3>Backend Developer</h3>
+        <ul>
+          <li>Full-time</li>
+          <li>Hybrid - Leeds</li>
+          <li>£30k–£35k</li>
+        </ul>
+        <a href="apply.html" class="apply-button">Apply Now</a>
+      </div>
+
+      <div class="job-card">
+        <h3>UI/UX Designer</h3>
+        <ul>
+          <li>Part-time</li>
+          <li>Remote</li>
+          <li>£20k–£25k</li>
+        </ul>
+        <a href="apply.html" class="apply-button">Apply Now</a>
+      </div>
+
+      <div class="job-card">
+        <h3>Technical Support Assistant</h3>
+        <ul>
+          <li>Entry-level</li>
+          <li>On-site (Leeds)</li>
+          <li>£20k–£22k</li>
+        </ul>
+        <a href="apply.html" class="apply-button">Apply Now</a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>© 2025 Bobble Digital. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
